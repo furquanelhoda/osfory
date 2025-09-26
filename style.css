@@ -1,0 +1,180 @@
+body {
+    background: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+#container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    height: auto;
+    padding: 15px;
+    background: rgb(0, 0, 0);
+    color: azure;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background: rgb(0, 0, 0);
+    float: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 100%;
+    height: auto;
+    background: rgb(0, 0, 0);
+    float: none;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    main {
+        width: 60%;
+        float: right;
+    }
+    
+    aside {
+        width: 38%;
+        float: left;
+    }
+}
+
+
+
+
+.textarea1 {
+    height: 300px;
+    width: 100%;
+    max-width: 400px;
+    color: white;
+    background: black;
+    border: 1px solid blue;
+    border-radius: 7px;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.best {
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    overflow-x: auto;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    border: 2px solid #1e90ff;
+    text-align: center;
+    direction: rtl;
+    background: #0a192f;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+th {
+    background-color: #1e90ff;
+    color: #ffffff;
+    padding: 12px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 12px 15px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+tr {
+    transition: all 0.3s ease;
+}
+
+tr:nth-child(even) {
+    background-color: #162b4d;
+}
+
+tr:nth-child(odd) {
+    background-color: #0a192f;
+}
+
+tr:hover {
+    background-color: #1e90ff;
+    color: #ffffff;
+    transform: scale(1.02);
+}
+
+tr:hover td {
+    color: #ffffff;
+}
+
+.h_class {
+    color: blue;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.img_sonny {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.inputa{
+    height:300px;
+    width:400px;
+    background : blue;
+}
+
+.x{
+    color:red;
+    
+    
+
+}
+.best4{
+    color: rgb(255, 255, 255);
+   
+}
+
+.linkyou{
+    color: blue;
+}
+.eliaso{
+    color: #ffffff;
+    text-justify: auto;
+    text-align: center;
+}
